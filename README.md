@@ -4,7 +4,7 @@ This project is a Python implementation of the robust ellipse fitting algorithm 
 
 The algorithm fits ellipses to image gradients by representing them as a set of tangent lines and fitting a *dual conic*, which provides superior robustness and accuracy compared to traditional point-based fitting methods.
 
-
+![detection](https://github.com/intellar/Dual_Ellipse/blob/692d8969c52e2c3944fb0e869a6dff0be2c8c36c/Ford_result.png)
 
 ## Features
 
