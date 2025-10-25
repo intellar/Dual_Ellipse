@@ -1,8 +1,8 @@
 # Dual Ellipse Fitting in Python
 
-This project is a Python implementation of the robust ellipse fitting algorithm described in the 2008 paper **"Accurate and robust ellipse fitting in real-time"** by Jean-Nicolas Ouellet and Patrick Hébert. It was ported from the original MATLAB source code provided by the author.
+This project is a Python implementation of the robust ellipse fitting algorithm described in the 2008 paper **"Precise ellipse estimation without contour point extraction"** by Jean-Nicolas Ouellet and Patrick Hébert. It was ported from the original MATLAB source code provided by the author.
 
-The algorithm fits ellipses to image gradients by representing them as a set of tangent lines and fitting a *dual conic*, which provides superior robustness and accuracy compared to traditional point-based (primal) fitting methods.
+The algorithm fits ellipses to image gradients by representing them as a set of tangent lines and fitting a *dual conic*, which provides superior robustness and accuracy compared to traditional point-based fitting methods.
 
 
 
@@ -55,4 +55,4 @@ This will load the image, detect all ellipses, and display the results using Mat
 
 ## Reference
 
-Ouellet, J. N., & Hebert, P. (2008). Accurate and robust ellipse fitting in real-time. *2008 IEEE Computer Society Conference on Computer Vision and Pattern Recognition Workshops*. DOI: 10.1109/CVPRW.2008.4563057
+Ouellet, JN., Hébert, P. Precise ellipse estimation without contour point extraction. Machine Vision and Applications 21, 59 (2009). https://doi.org/10.1007/s00138-008-0141-3
